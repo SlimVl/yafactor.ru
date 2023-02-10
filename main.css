@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+    background-color: #F7F5F2;
+}
+body {
+    margin: 0;
+}
+.w3-top {
+    top: 0;
+}
+.w3-top, .w3-bottom {
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 1;
+}
+#main-nav {
+    display: flex;
+    justify-content: space-around;
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.w3-padding {
+    padding: 8px 16px!important;
+}
+.w3-container, .w3-panel {
+    padding: 0.01em 16px;
+}
+.w3-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
+    color: #fff!important;
+    background-color: #616161!important;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#searchresults {
+    text-align:center;
+    margin-top:20px;
+    display:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#000;
+}
