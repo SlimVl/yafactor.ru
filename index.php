@@ -43,23 +43,26 @@
     <div class="w3-top">
         <div id="main-nav" class="w3-row w3-padding w3-black">
             <div class="menu-item ">
-                <a href="/" class="w3-button w3-block w3-black">Home</a>
+                <a href="/yafactor.ru/" class="w3-buttons w3-block w3-black">Home</a>
             </div>
 
             <div class="menu-item ">
-                <a href="/slice" class="w3-button w3-block w3-black">All Slices</a>
+                <a href="/slice" class="w3-buttons w3-block w3-black">All Slices</a>
             </div>
 
             <div class="menu-item ">
-                <a href="/tag" class="w3-button w3-block w3-black">All Tags</a>
+                <a href="/tag" class="w3-buttons w3-block w3-black">All Tags</a>
             </div>
 
             <div class="menu-item ">
-                <a href="/search" class="w3-button w3-block w3-black">Search</a>
+                <a href="/yafactor.ru/group.php" class="w3-buttons w3-block w3-black">All Groups</a>
+            </div>
+
+            <div class="menu-item ">
+                <a href="search.php" class="w3-buttons w3-block w3-black">Search</a>
             </div>
 
             <div class="menu-item w3-hide-small">
-                <!-- inline search box with small submit button -->
                 <form action="search.php" method="POST" class="w3-container w3-padding-0 w3-margin-0" style="display: flex;">
                     <input type="text" name="search" class="w3-input" style="border-radius: 10px 0 0 10px;" placeholder="Search">
                     <button type="submit" class="w3-button w3-dark-gray" style="border-radius: 0 10px 10px 0;">Go</button>

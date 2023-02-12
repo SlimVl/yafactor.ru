@@ -9,7 +9,7 @@ if (isset($_POST['search']))
     $word = $_POST['search'];
 
     // формирование поискового запроса к базе
-    $sth = $db->prepare("SELECT * FROM `factor` WHERE `CppName` LIKE '%" . $word . "%' OR `Name` LIKE '%" . $word . "%' OR `Tags` LIKE '%" . $word . "%' ORDER BY `index` LIMIT 10");
+    $sth = $db->prepare("SELECT * FROM `factor` WHERE `CppName` LIKE '%" . $word . "%' OR `Name` LIKE '%" . $word . "%' OR `Tags` LIKE '%" . $word . "%' OR `Group` LIKE '%" . $word . "%'");
     $sth->execute();
     // получение результатов
     $row = $sth->fetchAll(PDO::FETCH_ASSOC);
